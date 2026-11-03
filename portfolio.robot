@@ -29,7 +29,7 @@ Verify Find booking page
 
 Verify Input Email Pass
     Wait Until Element Is Visible  ${locator_email}
-    Input Text                     ${locator_email}      glost2662@gmail.com
+    Input Text                     ${locator_email}      example@gmail.com
     Click Element                  ${locator_getverifyCode}
     Wait Until Page Contains       Please check your email to find the 6-digit verification code and enter it below
 
